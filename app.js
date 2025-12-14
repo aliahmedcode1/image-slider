@@ -1,4 +1,4 @@
-const slides = document.querySelectorAll('.slide');
+const slides = document('.slide');
 let currentSlide = 0;
 
 function hideAllSlides() {
@@ -27,3 +27,4 @@ function changeSlide(n) {
 }
 
 showSlide();
+
